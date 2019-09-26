@@ -107,7 +107,8 @@ Predicted_Values_fxn <- function (x, y) {
 mapply(Predicted_Values_fxn, x = list1, y = Regression_Parameter_List, SIMPLIFY = F)
 Map(Predicted_Values_fxn, x = list1, y = Regression_Parameter_List)
 
-# 'Map' function does the exact same thing as 'mapply' BUT SIMPLIFY = F
+# (The 'Map' function does the exact same thing as 'mapply', but
+# the SIMPLIFY argument is always (by default) set to FALSE.)
 
 # I think that worked.
 
